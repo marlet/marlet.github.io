@@ -1,0 +1,91 @@
+
+body { width: 70%; min-width: 800px; max-width: 1024px; margin: 20px auto; }
+a {color: #449;}
+a:hover {text-decoration: none;}
+strong {color: #E90;}
+p {margin: 10px 0;}
+
+header {
+  border-bottom: 3px solid #000;
+  margin-bottom: 30px; overflow: hidden;
+}
+header #logo {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin-right:40px;
+}
+header h2  {
+  font: 40px "Verdana", serif;
+  margin: 0 0 10px;
+}
+header h2 a, header h1 a  { 
+  color: inherit;
+  text-decoration: none;
+}
+header h2, header h1  { padding-left: 40px}
+header h1 {
+  margin: 10px 0 10px 103px;
+  font-weight: normal;
+  font: 24px sans-serif;
+}
+
+#menu {
+  float:right;
+  overflow:hidden;
+  margin: 25px 20px 0 0;
+}
+#menu li:first-child{list-style:none;}
+#menu li {
+  float: left;
+  margin-left:30px;
+  text-transform: uppercase;
+}
+#menu li a, 
+#menu li span {
+  display:block;
+  padding: 10px;
+  border-top: 2px solid #FFF;
+  text-decoration: none;
+  color: inherit;
+}
+#menu li a:hover {
+  border-top: 2px solid #E90;
+  background-color: #EEE;
+}
+
+#people {
+  float: right;
+  width: 15%;
+  min-width: 200px;
+  max-width: 300px;
+  background-color: #EEE;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 15px;
+  }
+#people h3 { font-size: 16px;}
+#people p, #people ul {padding-left:20px;}
+#people li {list-style:none;}
+
+#content h3 { font: 20px sans-serif; margin-bottom:10px;}
+
+dt {
+  float: left;
+  width: 100px;
+  height: 40px;
+  padding-top: 10px;
+  clear: left;
+  font-weight: bold;
+}
+dt span {
+  display: block;
+  color: #555;
+  font-weight: normal;
+}
+dd {
+  min-height: 42px;
+  padding: 10px 0 0 10px;
+  margin-left: 120px;
+  border-bottom: 1px solid #eee;
+}
